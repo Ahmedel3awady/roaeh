@@ -1,0 +1,97 @@
+<!DOCTYPE html><html  lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style id="nuxt-ui-colors">@layer theme {
+  :root, :host {
+  --ui-color-primary-50: var(--color-green-50, oklch(98.2% 0.018 155.826));
+  --ui-color-primary-100: var(--color-green-100, oklch(96.2% 0.044 156.743));
+  --ui-color-primary-200: var(--color-green-200, oklch(92.5% 0.084 155.995));
+  --ui-color-primary-300: var(--color-green-300, oklch(87.1% 0.15 154.449));
+  --ui-color-primary-400: var(--color-green-400, oklch(79.2% 0.209 151.711));
+  --ui-color-primary-500: var(--color-green-500, oklch(72.3% 0.219 149.579));
+  --ui-color-primary-600: var(--color-green-600, oklch(62.7% 0.194 149.214));
+  --ui-color-primary-700: var(--color-green-700, oklch(52.7% 0.154 150.069));
+  --ui-color-primary-800: var(--color-green-800, oklch(44.8% 0.119 151.328));
+  --ui-color-primary-900: var(--color-green-900, oklch(39.3% 0.095 152.535));
+  --ui-color-primary-950: var(--color-green-950, oklch(26.6% 0.065 152.934));
+  --ui-color-secondary-50: var(--color-blue-50, oklch(97% 0.014 254.604));
+  --ui-color-secondary-100: var(--color-blue-100, oklch(93.2% 0.032 255.585));
+  --ui-color-secondary-200: var(--color-blue-200, oklch(88.2% 0.059 254.128));
+  --ui-color-secondary-300: var(--color-blue-300, oklch(80.9% 0.105 251.813));
+  --ui-color-secondary-400: var(--color-blue-400, oklch(70.7% 0.165 254.624));
+  --ui-color-secondary-500: var(--color-blue-500, oklch(62.3% 0.214 259.815));
+  --ui-color-secondary-600: var(--color-blue-600, oklch(54.6% 0.245 262.881));
+  --ui-color-secondary-700: var(--color-blue-700, oklch(48.8% 0.243 264.376));
+  --ui-color-secondary-800: var(--color-blue-800, oklch(42.4% 0.199 265.638));
+  --ui-color-secondary-900: var(--color-blue-900, oklch(37.9% 0.146 265.522));
+  --ui-color-secondary-950: var(--color-blue-950, oklch(28.2% 0.091 267.935));
+  --ui-color-success-50: var(--color-green-50, oklch(98.2% 0.018 155.826));
+  --ui-color-success-100: var(--color-green-100, oklch(96.2% 0.044 156.743));
+  --ui-color-success-200: var(--color-green-200, oklch(92.5% 0.084 155.995));
+  --ui-color-success-300: var(--color-green-300, oklch(87.1% 0.15 154.449));
+  --ui-color-success-400: var(--color-green-400, oklch(79.2% 0.209 151.711));
+  --ui-color-success-500: var(--color-green-500, oklch(72.3% 0.219 149.579));
+  --ui-color-success-600: var(--color-green-600, oklch(62.7% 0.194 149.214));
+  --ui-color-success-700: var(--color-green-700, oklch(52.7% 0.154 150.069));
+  --ui-color-success-800: var(--color-green-800, oklch(44.8% 0.119 151.328));
+  --ui-color-success-900: var(--color-green-900, oklch(39.3% 0.095 152.535));
+  --ui-color-success-950: var(--color-green-950, oklch(26.6% 0.065 152.934));
+  --ui-color-info-50: var(--color-blue-50, oklch(97% 0.014 254.604));
+  --ui-color-info-100: var(--color-blue-100, oklch(93.2% 0.032 255.585));
+  --ui-color-info-200: var(--color-blue-200, oklch(88.2% 0.059 254.128));
+  --ui-color-info-300: var(--color-blue-300, oklch(80.9% 0.105 251.813));
+  --ui-color-info-400: var(--color-blue-400, oklch(70.7% 0.165 254.624));
+  --ui-color-info-500: var(--color-blue-500, oklch(62.3% 0.214 259.815));
+  --ui-color-info-600: var(--color-blue-600, oklch(54.6% 0.245 262.881));
+  --ui-color-info-700: var(--color-blue-700, oklch(48.8% 0.243 264.376));
+  --ui-color-info-800: var(--color-blue-800, oklch(42.4% 0.199 265.638));
+  --ui-color-info-900: var(--color-blue-900, oklch(37.9% 0.146 265.522));
+  --ui-color-info-950: var(--color-blue-950, oklch(28.2% 0.091 267.935));
+  --ui-color-warning-50: var(--color-yellow-50, oklch(98.7% 0.026 102.212));
+  --ui-color-warning-100: var(--color-yellow-100, oklch(97.3% 0.071 103.193));
+  --ui-color-warning-200: var(--color-yellow-200, oklch(94.5% 0.129 101.54));
+  --ui-color-warning-300: var(--color-yellow-300, oklch(90.5% 0.182 98.111));
+  --ui-color-warning-400: var(--color-yellow-400, oklch(85.2% 0.199 91.936));
+  --ui-color-warning-500: var(--color-yellow-500, oklch(79.5% 0.184 86.047));
+  --ui-color-warning-600: var(--color-yellow-600, oklch(68.1% 0.162 75.834));
+  --ui-color-warning-700: var(--color-yellow-700, oklch(55.4% 0.135 66.442));
+  --ui-color-warning-800: var(--color-yellow-800, oklch(47.6% 0.114 61.907));
+  --ui-color-warning-900: var(--color-yellow-900, oklch(42.1% 0.095 57.708));
+  --ui-color-warning-950: var(--color-yellow-950, oklch(28.6% 0.066 53.813));
+  --ui-color-error-50: var(--color-red-50, oklch(97.1% 0.013 17.38));
+  --ui-color-error-100: var(--color-red-100, oklch(93.6% 0.032 17.717));
+  --ui-color-error-200: var(--color-red-200, oklch(88.5% 0.062 18.334));
+  --ui-color-error-300: var(--color-red-300, oklch(80.8% 0.114 19.571));
+  --ui-color-error-400: var(--color-red-400, oklch(70.4% 0.191 22.216));
+  --ui-color-error-500: var(--color-red-500, oklch(63.7% 0.237 25.331));
+  --ui-color-error-600: var(--color-red-600, oklch(57.7% 0.245 27.325));
+  --ui-color-error-700: var(--color-red-700, oklch(50.5% 0.213 27.518));
+  --ui-color-error-800: var(--color-red-800, oklch(44.4% 0.177 26.899));
+  --ui-color-error-900: var(--color-red-900, oklch(39.6% 0.141 25.723));
+  --ui-color-error-950: var(--color-red-950, oklch(25.8% 0.092 26.042));
+  --ui-color-neutral-50: var(--color-slate-50, oklch(98.4% 0.003 247.858));
+  --ui-color-neutral-100: var(--color-slate-100, oklch(96.8% 0.007 247.896));
+  --ui-color-neutral-200: var(--color-slate-200, oklch(92.9% 0.013 255.508));
+  --ui-color-neutral-300: var(--color-slate-300, oklch(86.9% 0.022 252.894));
+  --ui-color-neutral-400: var(--color-slate-400, oklch(70.4% 0.04 256.788));
+  --ui-color-neutral-500: var(--color-slate-500, oklch(55.4% 0.046 257.417));
+  --ui-color-neutral-600: var(--color-slate-600, oklch(44.6% 0.043 257.281));
+  --ui-color-neutral-700: var(--color-slate-700, oklch(37.2% 0.044 257.287));
+  --ui-color-neutral-800: var(--color-slate-800, oklch(27.9% 0.041 260.031));
+  --ui-color-neutral-900: var(--color-slate-900, oklch(20.8% 0.042 265.755));
+  --ui-color-neutral-950: var(--color-slate-950, oklch(12.9% 0.042 264.695));
+  }
+  :root, :host, .light {
+  --ui-primary: var(--ui-color-primary-500);
+  --ui-secondary: var(--ui-color-secondary-500);
+  --ui-success: var(--ui-color-success-500);
+  --ui-info: var(--ui-color-info-500);
+  --ui-warning: var(--ui-color-warning-500);
+  --ui-error: var(--ui-color-error-500);
+  }
+  .dark {
+  --ui-primary: var(--ui-color-primary-400);
+  --ui-secondary: var(--ui-color-secondary-400);
+  --ui-success: var(--ui-color-success-400);
+  --ui-info: var(--ui-color-info-400);
+  --ui-warning: var(--ui-color-warning-400);
+  --ui-error: var(--ui-color-error-400);
+  }
+}</style><title>الرئيسية - رؤية - قرارات النمو لا تُبنى على الانطباع، بل على أرقام واضحة، حوكمة فعالة، ومخاطر محسوبة.</title><link rel="preconnect" href="https://api.goweb.llc" crossorigin><link rel="stylesheet" href="/_nuxt/entry.t3ak_JkE.css" crossorigin><style>@layer components {:where(.i-heroicons\:arrow-left){display:inline-block;width:1em;height:1em;background-color:currentColor;-webkit-mask-image:var(--svg);mask-image:var(--svg);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;mask-size:100% 100%;--svg:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18'/%3E%3C/svg%3E")}:where(.i-heroicons\:home){display:inline-block;width:1em;height:1em;background-color:currentColor;-webkit-mask-image:var(--svg);mask-image:var(--svg);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;mask-size:100% 100%;--svg:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m2.25 12l8.955-8.955a1.124 1.124 0 0 1 1.59 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25'/%3E%3C/svg%3E")}}</style><link rel="modulepreload" as="script" crossorigin href="/_nuxt/Ckjut7Qk.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/Dtc9w-uJ.js"><link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/dd68a7e5-d2f4-4bb1-97a7-9728970fefb6.json"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="google-site-verification" content="rWe9M10261hfX5auw9_qE2pOH8NXWDSV0DOX0oX47f8"><link rel="icon" type="image/png" href="/icon.png"><meta name="description" content="في رؤية، نعمل كشريك استراتيجي ومالي للشركات السعودية الطموحة، نساعدها على فهم واقعها، تنظيم قراراتها، وبناء مسار نمو أكثر وضوحًا واستدامة. لا نكتفي بتقديم الاستشارة، بل نعمل مع شركائنا على تحويل التشخيص إلى حلول، والحلول إلى أثر قابل للتنفيذ والقياس."><meta name="google" content="notranslate"><link rel="icon" type="image/png" href="/icon.png"><script type="module" src="/_nuxt/Ckjut7Qk.js" crossorigin></script><script>"use strict";(()=>{const o=window,e=document.documentElement,c=["dark","light"],s=getStorageValue("localStorage","nuxt-color-mode")||"system";let r=s==="system"?f():s;const l=e.getAttribute("data-color-mode-forced");l&&(r=l),i(r),o["__NUXT_COLOR_MODE__"]={preference:s,value:r,getColorScheme:f,addColorScheme:i,removeColorScheme:d};function i(t){const a=""+t+"",n="";e.classList?e.classList.add(a):e.className+=" "+a,n&&e.setAttribute("data-"+n,t)}function d(t){const a=""+t+"",n="";e.classList?e.classList.remove(a):e.className=e.className.replace(new RegExp(a,"g"),""),n&&e.removeAttribute("data-"+n)}function u(t){return o.matchMedia("(prefers-color-scheme"+t+")")}function f(){if(o.matchMedia&&u("").media!=="not all"){for(const t of c)if(u(":"+t).matches)return t}return"light"}})();function getStorageValue(o,e){switch(o){case"localStorage":try{return window.localStorage.getItem(e)}catch{return null}case"sessionStorage":try{return window.sessionStorage.getItem(e)}catch{return null}case"cookie":try{return getCookie(e)}catch{return null}default:return null}}function getCookie(o){const c=("; "+window.document.cookie).split("; "+o+"=");if(c.length===2){const s=c.pop();return s?s.split(";").shift():null}}</script></head><body  class="rtl font-body"><div id="__nuxt" class="isolate"><!--[--><!--[--><!--[--><!--[--><!--[--><!--[--><div class="nuxt-loading-indicator" style="position:fixed;top:0;right:0;left:0;pointer-events:none;width:auto;height:3px;opacity:0;background:#73AB35;background-size:0% auto;transform:scaleX(0%);transform-origin:left;transition:transform 0.1s, height 0.4s, opacity 0.4s;z-index:999999;"></div><div class="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-4"><div class="text-center"><div class="mb-8"><div class="inline-flex items-center justify-center w-32 h-32 rounded-full bg-red-100 dark:bg-red-900/20"><svg class="w-20 h-20 text-red-600 dark:text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg></div></div><h1 class="text-8xl font-bold text-gray-900 dark:text-white mb-4">403</h1><h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-4">غير مصرح بالوصول</h2><p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-md mx-auto"> عذراً، ليس لديك الصلاحيات اللازمة للوصول إلى هذه الصفحة. يرجى التواصل مع المسؤول إذا كنت تعتقد أن هذا خطأ. </p><div class="flex flex-col sm:flex-row gap-4 justify-center items-center"><!--[--><!--[--><button type="button" data-slot="base" class="disabled:cursor-not-allowed aria-disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:opacity-75 rounded-[28px] font-medium h-[50px] flex items-center justify-center cursor-pointer transition-all duration-300 ease-in-out relative overflow-hidden before:absolute before:inset-0 before:bg-white/10 before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-500 bg-primary text-white hover:bg-primary/90 shadow-md hover:shadow-lg px-3 py-2 text-sm gap-2"><!--[--><!--[--><span class="iconify i-heroicons:home shrink-0 size-5" aria-hidden="true" style="" data-slot="leadingIcon"></span><!--]--><!--[--> الذهاب للرئيسية <!--]--><!--[--><!----><!--]--><!--]--></button><!--]--><!--]--><!--[--><!--[--><button type="button" data-slot="base" class="disabled:cursor-not-allowed aria-disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:opacity-75 rounded-[28px] font-medium h-[50px] flex items-center justify-center cursor-pointer transition-all duration-300 ease-in-out relative overflow-hidden before:absolute before:inset-0 before:bg-white/10 before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-500 px-3 py-2 text-sm gap-2 text-default hover:bg-elevated active:bg-elevated focus:outline-none focus-visible:bg-elevated hover:disabled:bg-transparent dark:hover:disabled:bg-transparent hover:aria-disabled:bg-transparent dark:hover:aria-disabled:bg-transparent"><!--[--><!--[--><span class="iconify i-heroicons:arrow-left shrink-0 size-5" aria-hidden="true" style="" data-slot="leadingIcon"></span><!--]--><!--[--> العودة للخلف <!--]--><!--[--><!----><!--]--><!--]--></button><!--]--><!--]--></div></div></div><!--]--><!--]--><!--]--><!--[--><!--]--><!--v-if--><!--]--><!--[--><!--]--><!--]--><!--]--></div><div id="teleports"></div><script>window.__NUXT_SITE_CONFIG__=(function(a,b,c){return {_priority:{env:-15,name:a,url:a,defaultLocale:a,currentLocale:a,description:a},currentLocale:b,defaultLocale:b,description:c,env:"production",name:c,url:"https:\u002F\u002F() =\u003E resolveI18nUrl(i18n, requestProtocol)"}}(-2,"ar",void 0))</script><script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__">[["ShallowReactive",1],{"prerenderedAt":2,"data":3,"state":5,"once":35,"_errors":36,"serverRendered":9,"path":38},1790688415463,["ShallowReactive",4],{},["Reactive",6],{"$scolor-mode":7,"$si18n:cached-locale-configs":11,"$si18n:resolved-locale":12,"$sauth":13,"$svalidationErrors":16,"$squery":17,"$sapp-store":24,"$stoasts":25,"$ssite-config":26},{"preference":8,"value":8,"unknown":9,"forced":10},"system",true,false,{},"",{"token":14,"user":14,"permissions":15,"whatsappToken":14},null,[],{},{"query":18,"tempQuery":19,"meta":20},{},{},{"current_page":21,"per_page":22,"last_page":21,"total":23},1,10,0,{"contactInfo":14,"settings":14,"activeSiteModels":14,"marketingTools":14},[],{"_priority":27,"currentLocale":31,"defaultLocale":31,"env":32,"name":33,"url":34},{"env":28,"name":29,"url":29,"defaultLocale":30,"currentLocale":30},-15,-3,-2,"ar","production","Roaeh","https://roaeh.com/",["Set"],["ShallowReactive",37],{"contactInfo":-1,"marketingTools":-1,"settings":-1,"activeSiteModels":-1},"/error/403"]</script><script>window.__NUXT__={};window.__NUXT__.config={public:{apiBase:"https://api.goweb.llc/api/site",localHost:"roaeh",whatsappBaseUrl:"",X_API_KEY:"",i18n:{baseUrl:"",defaultLocale:"ar",rootRedirect:"",redirectStatusCode:302,skipSettingLocaleOnNavigate:false,locales:[],detectBrowserLanguage:{alwaysRedirect:false,cookieCrossOrigin:false,cookieDomain:"",cookieKey:"i18n_redirected",cookieSecure:false,fallbackLocale:"",redirectOn:"root",useCookie:true},experimental:{localeDetector:"",typedPages:true,typedOptionsAndMessages:false,alternateLinkCanonicalQueries:true,devCache:false,cacheLifetime:"",stripMessagesPayload:false,preload:false,strictSeo:false,nitroContextDetection:true,httpCacheDuration:10},domainLocales:{}},"nuxt-robots":{version:"6.2.3",isNuxtContentV2:false,debug:false,credits:true,groups:[{comment:[],disallow:[],allow:["/"],userAgent:["GPTBot"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["OAI-SearchBot"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["ChatGPT-User"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["Google-Extended"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["ClaudeBot"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["Claude-Web"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["PerplexityBot"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["Applebot"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["Applebot-Extended"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["CCBot"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true},{comment:[],disallow:[],allow:["/"],userAgent:["*"],contentUsage:[],contentSignal:[],_indexable:true,_rules:[{pattern:"/",allow:true}],_normalized:true}],sitemap:["https://roaeh.com/sitemap.xml","/sitemap.xml"],header:true,robotsEnabledValue:"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",robotsDisabledValue:"noindex, nofollow",cacheControl:"max-age=14400, must-revalidate",botDetection:true,pageMetaRobots:{}}},app:{baseURL:"/",buildId:"dd68a7e5-d2f4-4bb1-97a7-9728970fefb6",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script></body></html>

@@ -1,0 +1,1 @@
+function i(e){if(!e)return"";const t=new Date(e);if(isNaN(t.getTime()))return"";const a=String(t.getDate()).padStart(2,"0"),n=String(t.getMonth()+1).padStart(2,"0"),r=String(t.getFullYear()).slice(-2),o=new Intl.DateTimeFormat("ar-EG",{weekday:"long"}).format(t);return`${a} / ${n} / ${r} ${o}`}export{i as f};

@@ -1,0 +1,1 @@
+.testimonial-card-comment:before{animation:animation_left_and_right 20s ease 0s infinite normal none;background:url(../imgs/icons/quotes.svg) no-repeat 50%/100% 100%;content:"";height:60px;isolation:auto;left:1.5rem;position:absolute;top:1.5rem;width:60px;z-index:-1}

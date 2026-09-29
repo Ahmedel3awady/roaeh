@@ -1,0 +1,1 @@
+import{_ as t}from"./DlAUqK2U.js";import{o,c,N as a}from"./Ckjut7Qk.js";const s={},n={class:"contact-page-layout"};function r(e,_){return o(),c("div",n,[a(e.$slots,"default",{},void 0,!0)])}const l=t(s,[["render",r],["__scopeId","data-v-9371be89"]]);export{l as default};

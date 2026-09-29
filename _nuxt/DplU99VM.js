@@ -1,0 +1,1 @@
+import{e as s,c as t,a as n,N as a,o as c}from"./Ckjut7Qk.js";const _=["id"],i={class:"mx-auto w-full max-w-[1240px]"},d=s({__name:"Section",props:{id:{}},setup(e){return(o,p)=>(c(),t("section",{id:e.id,class:"px-5 py-16 md:px-10 md:py-24"},[n("div",i,[a(o.$slots,"default")])],8,_))}}),r=Object.assign(d,{__name:"Section"});export{r as _};

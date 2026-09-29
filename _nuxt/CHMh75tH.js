@@ -1,0 +1,1 @@
+import{e as o,o as e,m as a,w as r,N as _,O as c,I as m}from"./Ckjut7Qk.js";const l=o({__name:"button",props:{btnClass:{}},setup(s){return(t,p)=>{const n=m;return e(),a(n,c({class:["core-button",s.btnClass]},t.$attrs),{default:r(()=>[_(t.$slots,"default")]),_:3},16,["class"])}}}),f=Object.assign(l,{__name:"CoreButton"});export{f as _};

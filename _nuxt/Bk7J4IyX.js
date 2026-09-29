@@ -1,0 +1,1 @@
+import{_ as t}from"./DlAUqK2U.js";import{o,c as r,N as s,O as n}from"./Ckjut7Qk.js";const a={};function c(e,_){return o(),r("h2",n({class:"text-secondary dark:text-light font-extra-bold lg:text-[36px] text-2xl"},e.$attrs),[s(e.$slots,"default")],16)}const x=Object.assign(t(a,[["render",c]]),{__name:"CoreSubTitle"});export{x as _};
